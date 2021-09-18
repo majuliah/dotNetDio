@@ -1,0 +1,91 @@
+<> Introdução a Gestão de Projetos e ao SCRUM </>
+
+    <> Conceitos Básicos </>
+
+Dos objetivos de negócios nascem os requisitos.
+No desenvolvimento de projeto tradicional, nós temos 5 etapas: (Waterfall, só avança quando a etapa anterior está finalizada)
+ -Concepção
+ -Análise & Design
+ -Desenvolvimento
+ -Testes
+ -Implantação
+
+Na realidade, quando a empresa desenvolve um software para uma empresa, apenas 20% dele é utilizado como um todo,
+gerando custos desnecessários. 
+
+Na metodologia ágil, as etapas são consumidas de forma interativa. 
+O cliente sabe que não tem certeza sobre o que quer, portanto as coisas vão evoluindo gradualmente.
+Não é resistente à mudanças, é controlado por funcionalidades a ser entregues, e feedbacks constantes dos usuários.
+Além disso, descobrimos que estamos errados em no máximo 30 dias. 
+
+    ÁGIL != RÁPIDO
+Isso significa que vamos mudar sempre que necessário. Dividimos tarefas complexas em várias partes menores, para que seja simples.
+Tem uma equipe comprometida com o objetivo e tem um maior valor ao cliente. No fim, temos que responder rapidamente à mudanças.
+Usam equipes pequenas e multidisciplinares.
+
+
+  PILARES DO SCRUM
+ -transparência;
+ -adaptação
+ -inspeção
+
+
+Minimum Viable Product: Pequenas partes vão sendo evoluídas e temos constantes entregas.
+
+
+  <> Papéis e Responsabilidades de cada um no time </>
+
+Product Owner : Uma única pessoa que define as funcionalidades do software
+Ele define as prioridades da aplicação, é ele quem diz ao time o que é necessário.
+Prioriza o Backlog.
+
+Scrum Master: Garante que o time utilize o SCRUM. Ele não é gerente de projetos.
+Ele faz com que o time cresca em maturidade, fazendo com que fiquem independente.
+
+Time de desenvolvimento: Desenvolvem, testam, desenham e criam o que é necessário 
+para a entrega do software. 
+
+
+
+ <> Cerimônias do SCRUM </>
+
+Time Box: Tempo máximo de uma reunião
+Sprint: corrida. Time define quanto tempo
+ -PO, time dev e scrum participam da sprint. 
+
+A primeira sprint leva 8 horas. nas primeiras 4 o PO define o que deve ser feito
+e nas últimas 4, o time define como fazer o que foi pedido. É importante que nenhuma dúvida fique em aberto. Eles estimam as tarefas e o tempo. 
+Também devolvem o que será entregue. Então após isso o time começa a desenvolver, e 
+diáriamente tempos reuniões. Respondem To Do, Doing e Done e dura no máximo 15 minutos. Utilizam-se quadro KANBAN para as revisões.
+
+
+
+
+
+
+
+
+
+
+
+ <Papéis e Responsabilidades do PO />
+
+Ele é quem tem a visão do que será desenvolvido. 
+Quais são as necessidades que devem ser atendidas e o público que usará o produto. 
+Validam os resultados e dá o feedback. Precisa que o time de devs entendam os itens do backlog no nível necessário.
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+

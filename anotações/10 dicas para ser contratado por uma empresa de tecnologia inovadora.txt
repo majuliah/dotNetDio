@@ -1,0 +1,28 @@
+1) Repositórios alinhados com o currículo : demonstra que é verídico
+2) Artigos publicados e construção de conhecimento na internet 
+3) Integrada à uma comunidade de desenvolvimento de software
+4) Ambição em crescer profissionalmente
+5)Utilizar principais comunidades e sites internacionais de pesquisa
+6)Cursando graduação na área de exatas
+7)Evidência de contato com novas tecnologias como BigData, Cloud, IA, reconhecimento de voz, mobilidade, etc.
+8)Conhecimento em métodos ágeis, devOps
+9)conhecimento em provedores cloud e ferramentas online
+10)Aprendizagem continua através da internet
+
+//As pessoas devem saber resolver problemas além do código. 
+//
+
+
+Não aprovados:
+
+1)Não tem portfólios para apresentar
+2)Não conhece e nunca participou de novas tecnologias
+3)Não está conectado a nenhuma comunidade de aprendizagem
+4)Não apresenta elementos de trabalho em equipe
+5)Muito foco em currículo e não na jornada
+6)COnhece código e não conhece arquitetura moderna
+7)Não apresenta curiosidade
+8)Pouca disciplina de estabelecer metas
+9)Não tem fit cultural com a empresa
+10)Dificuldade com algoritmos complexos e pensamento lógico
+
