@@ -1,0 +1,59 @@
+Programar é resolver problemas.
+Lógica de Programação: Contextualizar de forma lógica os algoritmos.
+Abstração: Fazer de forma mais simples. Ignorar caracteristicas menos importantes.
+
+
+<>Algoritmos e Pseudocódigos</>
+
+Algoritmos: sequencia finita de passos para resolver um problema
+Deve ter início e fim.
+A ordem em um algoritmo é muito importante.
+
+Pseudocódigo: forma genérica de escrever um algoritmo.
+Portugol. 
+
+
+<>Fluxograma, Variáveis e Constantes </>
+Fluxograma: ferramenta de representar gráficamente os algoritmos.
+
+
+<>Expressões e Tomadas de Decisões </>
+
+Expressão Aritmética: Utiliza operadores aritméticos para realizar operações
+ +, -, -, /, ^, %....
+
+Expressões Literais: nome="Majulia", etc
+
+Expressões Relacionais: >, <, <=, >=, !=, ==
+
+Concatenação: Termo usado para juntar duas strings.
+String é sequencia de caracteres
+Agruamento de dua sou mais células.
+
+
+Estrutura de Repetição e Tomada de Decisão
+executa conjunto mediante a uma condição ou contador.
+
+
+O que é linguagem de programação: 
+escrita formal e específica a um conjunto de instrução 
+e regra utilizada pra gerar programa. Meio entre comunicação
+de humano e computador. 
+Alto nível: mais parecido com linguagem humana
+Baixo nível: Nível de computador, ter mais conhecimento de hardware
+
+Compilada: Utilizam compilador, pega o código e tranforma em um .exe 
+e o compilador traduz em linguagem de máquina para o PC entender.
+
+Interpretada: código fonte é executado por um programa do PC
+e é executada pelo SO outro.
+
+
+Portugol: pseudolinguagem que permite o programador a pensar no problema em si e não na linguagem
+
+Matriz: coleção de variáveis de mesmo tipo
+Feito através de índices.
+
+Vetor: matriz de uma só dimensão
+
+

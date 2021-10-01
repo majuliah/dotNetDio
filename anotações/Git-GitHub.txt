@@ -1,0 +1,147 @@
+Entendendo Git e sua importância.
+GIT: criado em 2005 e é um sistema de versionamento, pelo Linu que é criador do linux porque o linux foi feito de forma colaborativa.
+GITHUB são muito diferentes
+
+Controle de versão, Armazenamento em Nuvem, Trabalho em Equipe, Melhorar o código e Reconhecimento. 
+
+
+A maioria dos programas que interagimos, tem uma GUI que é uma interface gráfica.
+Agora alguns usam CLI que é command line interface onde operamos por linhas de comando. Neste curso utilizaremos
+a CLI. 
+
+Comandos básicos: mudar de pasta, listar as pastas, criar e deletar pasta e arquivos.
+
+Windows: Shell 				Linux/Os: Bash
+-cd
+-dir
+-mkdir
+-del/rmdir
+
+
+O windows tem o windows subsystem for linux que é comandos do linux dentro do windows.
+
+
+dir: lista de diretórios contidos na pasta em que estamos
+cd: chande director para mudar de diretórios
+cls: clear screen limpar o terminal
+tab: autocompleta nomes de pastas e arquivos
+mkdir: make directory cria pastas
+silence on success: se o terminal não reclamar é porque funcionou
+echo: imprime o que digitamos
+echo hello > hello.txt : faz com que a palavra hello seja criada dentro de um arquivo txt, caso já não haja um arquivo com este nome
+del : deleta tudo que está dentro de uma pasta
+^ navega entre últimos comandos
+rmdir: remove directory : rmdir nomedapasta remove o repositório todo, a pasta e tudo dentro
+
+
+
+
+Instalação do Git:
+
+Como o Git funciona por baixo dos panos:
+
+sha1 é um algoritmos de encriptação. 
+o git faz uso desse algoritmo para encriptar as alterações dos estados dos arquivos.
+
+openssl sha1 nomedoarquivo.txt : faz a encriptação
+
+OBJETOS INTERNOS DENTRO DO GIT:
+BLOBS
+TREES 
+COMMITS
+
+BLOBS: os arquivos do git ficam guardados em lugares chamados blob, que tem metadados dentro deles
+Ele tem o tipo do objeto(da string ou do arquivo), uma \0 e a mensagem ou o que contém dentro do arquivo
+Git guarda arquivos, gerando a encriptação e o git fabrica metadados do arquivo
+
+TREES: As trees armazenam os blobs. também aponta para um blob.
+Guarda o nome do arquivo. o Blob só guarda o sha do arquivo, enquanto as árvores apontam para arquivos ou outras árvores
+porque os diretórios podem ter outros diretórios;
+Os blobs tem os sha1 dos arquivos, as árvores tem os blobs e um próprio sha
+Se mudar um arquivo, vamos mudar toda a estrutura, leitura e encriptação do objeto
+
+COMMIT: junta tudo. é o objeto que encapsula tudo.
+o autor e a mensagem de um commit geram alterações das árvores e dos blobs
+tem um timestamp, leva uma data e hora de quando foi criado
+Eles possuem um sha1 também de seus metadados. 
+Alterando a blob, temos um sha1. Uma árvore apontando pro blob também gera um sha1, e o commit aponta pra uma árvore e altera seu sha1 e todas as árvores ligadas à ele
+
+
+CHAVE SSH E TOKEN
+
+CHAVE SSH: forma de estabelecer conexão segura entre duas máquinas. 
+O gitHub vai conhcer a nossa ssh para empurrarmos os códigos.
+COMO GERAR A CHAVE SSH:
+
+digitar no gitbash:
+ssh-keygen -t ed25519 -C eOseuEmail
+
+
+lwd: lista o caminho que você está completo
+
+
+PRIMEIROS COMANDOS COM O GIT:
+GIT INIT
+GIT ADD
+GIT COMMIT
+
+git config --global user.email "emailAqui"
+git config --global user.name "seuNome"
+
+
+
+
+
+GIT INIT: cria um repositório
+staged: onde ficam os arquivos que se preparam para outro tipo de agrupamento
+git add . é o arquivo que tá no staged
+ele no staged está esperando para fazer um commit
+
+mv nomeDoArquivo.txt ./pastaQueQueroMover/
+
+git add nomeDoArquivo : adiciona
+git rm : remove alterações
+restaurar: git restore --staged nomeDoArquivo
+
+
+git config --global --unset user.email/name : remove as credenciais do git da máquina
+
+
+
+
+CONFLITOS NO GITHUB!
+Antes de dar um push, precisamos dar um pull. Porque a versão tem que ser mais recente.
+Isso é erro de merge.
+pull: pushar
+
+
+
+
+
+O QUE É O GIT?
+Um sistema de versionamento de código distribuído.
+
+
+
+
+
+//CRIANDO O PRIMEIRO REPOSITÓRIO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

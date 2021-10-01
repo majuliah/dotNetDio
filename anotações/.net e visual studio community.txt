@@ -1,0 +1,13 @@
+Kit de desenvolvedor da ms: sempre as ferramentas necessárias para executarmos códigos da Microsoft, no .net em C# no caso. 
+.net e .net core são cross plataforma e o sdk é o mais completo.
+runtime é somente para executarmos, enquando o sdk é para codificar também. O sdk já vem com o runTime.
+
+ASP NET, AZURE, Dev desktop, Plataforma universal do windows, banco de dados : pacotes de ferramentas necessários para o curso
+
+
+Vantagens de utilizar uma IDE:
+IDE é um integrate development environment, que permite 
+criarmos aplicações. sintax highlight, autocomplete e template de estruturas de pastas
+são os motivos principais para termos uma IDE.
+
+dotnet --list-sdks : comando para verificar quais sdks possuimos no computador

@@ -18,10 +18,12 @@ O cliente sabe que não tem certeza sobre o que quer, portanto as coisas vão ev
 Não é resistente à mudanças, é controlado por funcionalidades a ser entregues, e feedbacks constantes dos usuários.
 Além disso, descobrimos que estamos errados em no máximo 30 dias. 
 
+
     ÁGIL != RÁPIDO
 Isso significa que vamos mudar sempre que necessário. Dividimos tarefas complexas em várias partes menores, para que seja simples.
 Tem uma equipe comprometida com o objetivo e tem um maior valor ao cliente. No fim, temos que responder rapidamente à mudanças.
 Usam equipes pequenas e multidisciplinares.
+A técnica SMART do Scrum pode ser utilizada para a identificação dos objetivos de um projeto.
 
 
   PILARES DO SCRUM
@@ -31,6 +33,8 @@ Usam equipes pequenas e multidisciplinares.
 
 
 Minimum Viable Product: Pequenas partes vão sendo evoluídas e temos constantes entregas.
+Scrum não reconhece títulos para os integrantes do Time de Desenvolvimento que não seja o Desenvolvedor,
+independentemente do trabalho que está sendo realizado pela pessoa e não há exceções para esta regra.
 
 
   <> Papéis e Responsabilidades de cada um no time </>
@@ -76,16 +80,64 @@ Validam os resultados e dá o feedback. Precisa que o time de devs entendam os i
 
 
  
+	<ESCOPO />
+
+Objetivos claros para que o projeto saia o mais fiel possível. 
+As sprints devem ser coerentes para que os valores sejam atingidos.
+É de extrema importância avaliar cada entrega, para que seja 
+mais fiel sobre o que o PO requisitou.
+
+Product Backlog: épicos são incrementos 
+sem muitos detalhamentos e ajudam a direcionar
+os caminhos que devem ser seguidos.
+Os detalhamentos se dividem em várias partes, 
+onde ficam anotados o que deve haver baseado na regra de negócio.
+
+Gestão de riscos de projetos ágeis são importantíssimas.
+Precisamos analisar os positivos e os negativos.
+
+épico. estória, atividade
+
+
+
+<>Papel do PO na tranformação Digital </>
+
+Transformação digital: Mudança estrutural nas empresas para
+que a tecnologia tenha seu devido reconhecimento.
+
+O PO tem interferência direta no sucesso do resultado do
+produto. Ele trabalhando junto com o time, entendendo a necessidade
+do cliente, consegue resultar em um produto de sucesso.
 
 
 
 
+<>Conceitos e Planejamentos de Tarefas</>
+
+Estória: sempre nível de negócio
+Tarefas: Time de desenvolvimento deve alcançar para entregar uma estória.
+Um conjunto de atividades que o time de desenvolvimento deve desempenhar para entregar a estória.
+Épico, Estória, Atividade
+
+Uma lista de aceite é uma lista de critérios para que a estória antenda os requisitos do cliente
+Planning Poker: Uma atividade de mensuração de esforço e complexidade das estórias
+
+Stakeholder: positivo ou Negativo. Tudo que está relacionado à produção do projeto.
+É toda pessoa que afeta o projeto. 
 
 
 
+<>Rotinas de um tipo ágil </>
+
+Daily: 15 minutos, 3 perguntas e 
+agrega valor ao projeto. Somente o time de desenvolvimento.
+Retrospectiva: Encerramento da Sprint e deve ser discutido 
+o que pode melhorar. Time de desenvolvimento e SM, no máximo o PO
 
 
 
-
+Refinamento: ocorre um passo antes da Planning. Fica no final da sprint
+Review: Verifica se a demanda agrega o negócio.
+Validar a demanda entregue, verificando se os critérios estabelecidos no planejamento foram atendidos.
 
 
