@@ -1,0 +1,77 @@
+<> Passado, presente e futuro .net </>
+Microsoft criou o visual studio para processar diversas linguagens
+que era visual basic 5, visual foxpro5, c++, j++ etc
+Em 1999 a microsoft decidiu parar de mexer com java 
+e começou a produção do C#
+Em 2000 a microsoft lança o .net
+antigamente, o .net só rodava em windows, então eles começaram a criar 
+uma multi plataforma. 
+Em 2002 sai o visual studio que suportava 22 linguagens
+Em 2008, o novo visual e novo c# vieram com WPF(para desenvolvimento voltado para aplicações desktop) e WCF
+e WCF que era pra web.
+
+2010 sai o F#
+Começa a criação do typescript
+em 2011 cria-se o Xamarim para sistemas mobile, criados em c#
+2012: c# 4.5 e visualstudio 2012
+2013: contínuo ambiente open source e ASP.NET mais consolidado com MVC web API 
+
+2014: microsoft se torna uma empresa focada em cloud e azure vira multiplataforma
+2015: lançamento do visual studio code, open source e multiplataforma
+2016: microsoft adquire xamarin e adquire os projetos para open source
+.net core 1.0 totalmente reescrita, open source e multiplataforma
+2017: mais platafromas lançadas: .net core, .net framework e atualização do c#
+2020: .net framework está pronto e deixará de ser evoluído, unificação dos .nets, sendo o .net 5
+não serão mais evoluídas como .net framework
+.net core se chamará .net5
+
+
+
+
+
+
+
+COMO E ONDE USAR O .NET
+O .net é uma infra para desenvolvimento de software criada pela ms
+uma app .net é desenvolvida para e é implementada em 
+.net core
+.net framework
+mono
+
+.net standard = .net framework mais o .net core
+cada implementação inclui diferentes runtimes
+o C# (focado em orientação a objeto) e o F#(mais funcional) e o VB são plataformas 
+suportadas no .net
+
+Podemos usar o .net em:
+desktop com wpf ou windows forms
+web com ASP.net
+cloud: azure
+mobile: Zamarin
+Game: Unity
+IoT: 
+AI: ML.NET, APACHE SPARK
+.net 5 consegue manipular tudo
+
+
+
+// Módulo 2
+
+
+
+<>PREPARANDO O AMIENTE</>
+
+<>Conhecento a CLI do .net</>
+
+dotnet --help
+nuget é um gerenciador de pacotes para .net : podemos subir de forma pública para a comunidade
+
+
+dotnet new console -n NomeDoProjeto : cria um projet no console !!!!!!!
+pasta bin: binários da aplicação. 
+Vai transformar. Pega o compilador do C# e transforma em código fonte e transforma em uma linguagem 
+uma linguagem intermediária e o clr transforma em linguagem de máquina gerando a pasta bin e lá ele executa o prog
+
+dotnet restore: baixa os pacotes e atualiza o projeto
+dotnet build: restaura e pega o código fonte e gera os binários
+arquivo pdb são os pontos de debug

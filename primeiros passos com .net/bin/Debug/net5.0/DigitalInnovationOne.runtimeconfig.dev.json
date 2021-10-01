@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\ladyv\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ladyv\\.nuget\\packages"
+    ]
+  }
+}
