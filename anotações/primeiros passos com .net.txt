@@ -75,3 +75,87 @@ uma linguagem intermediária e o clr transforma em linguagem de máquina gerando
 dotnet restore: baixa os pacotes e atualiza o projeto
 dotnet build: restaura e pega o código fonte e gera os binários
 arquivo pdb são os pontos de debug
+
+
+
+
+
+
+
+<>O QUE É C#?</>
+linguagem fortemente tipada, similar a do c++ ou java e suporta orientação a objeto
+Os programas do c# são executados no .net que inclui a CLR e o conjunto unificado de bibliotecas de classes
+Agora o compilador do C# é o Roslyn.
+
+<>Como funciona?</>
+O código fonte é compilado em uma linguagem intermediária(IL) e o código dessa linguagem intermediária
+são armazenados em um arquivo .exe(executável) ou .dll chamado assembly
+
+A CLR executa este .exe em uma JIT(just in time, momento de execução) que converte a IL em linguagem de máquina, 
+reproduzindo este programa.
+
+O CLR também fornece outros serviços:
+-Garbage Collector: coleta lixos e aqruivos inuteis e faz a limpeza
+-Excepction Handler: lida com exceções do programa e arruma, recebe e controla os erros
+-Resources Manager: gerenciador de recursos
+
+
+
+<>Estrutura de Programas </>
+
+Principais conceitos organizacionais:
+programas : formados por 1 ou mais arquivos, declaram tipos 
+namespaces: nomes dos programas
+tipos: names e interfaces, classes
+membros: campos, métodos e propriedades.
+assemblys: Quando são compilados, os programas são fisicamente empacotados em assemblies 
+que tem a extensão de arquivos .exe ou .dll dependendo do projeto em que estamos atuando
+
+
+--O programa está dividido em duas classes, ou dois aruivos com extensão .cs
+o csproj é um xml, tem declarações, qual o output(como estamos criando um app console, ele vai fazer um build de console)tem as informações do projeto, a versão do framework
+
+namespace: estrutura do programa é o nome do projeto
+o nome do projeto vai ser o prefixo do namespace de cada pasta
+
+c# permite classes aninhadas
+breackpoint: se executarmos no modo debug, ele para e executaremos linha por linha
+nos ajuda a entender a execução de um código e entender os erros.
+
+
+
+
+
+
+<>Tipos de valor</>
+Tipos de valor:
+numéricos: sbyte, short, int, long, ushort, uint, ulong
+unicode: char
+ponto flutuante: float, double, decimal
+booleano: bool
+enum, struct, tipos, nulable => quando aplica um ? antes da variável e ela pode ser nula
+
+
+tipos de referência:
+não tem os dados diretamente nela, elas guardam a referência do valor que está
+em outra variável. ela aponta pra um outro dado na memória
+
+class, object, string : tipos de classe
+tipos de arrays: int[], int[,], etc
+interface, delegate
+
+
+
+INSTRUÇÕES: são instruções que podemos agrupar dentro de um bloco
+if, switch, while, do, for, foreach
+
+break, continue, return, throw, try... catch.. finally, using
+
+
+
+
+
+
+
+
+
