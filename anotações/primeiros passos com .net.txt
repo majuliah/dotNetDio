@@ -155,6 +155,45 @@ break, continue, return, throw, try... catch.. finally, using
 
 
 
+<>CLASSES E OBJETOS</>
+Classe permite que criemos objetos.Combina estado e ações.
+estado: campos, ações: métodos
+Objetos: instâncias de uma classe.
+Classe é a definição de uma estrutura que se tornará um objeto durante o tempo de execução.
+
+Como criamos um novo objeto:
+operador new
+quando escrevemos o new e informamos os valores, se aloca um espaço na memória, chama o construtor e passa os valores, criando uma referência na memória
+
+A memória de um objeto, não precisamos nos preocupar com desalocar espaços que não estão sendo utilizados.
+
+Membros: podem ser static ou membros da instância
+estático pertence à classe e instância pertence ao objeto
+Cada membro de uma classe tem uma acessibilidade, a quem tem acesso aquele mebro
+publico: é publico
+protected: somente classes filhas tem acesso a classe
+internal: só é acessado de dentro do assemblie que ele faz parte
+private:indica que é acessado somente na classe em que está contido
+
+herança: uma classe base tem membros e tem classes filhas que herdam public, protected ou internal
+se não quisermos herdar, não informamos a herança e ele atribui automático o tipo object
+
+
+método é um membro que implementa uma computação ou ação que pode ser executada por um objeto
+
+classe tem que ter nome de verbo
+propriedades: substantivos
+métodos pode haver parâmetros de entrada por valor ou referência
+
+
+STRUCTS: Estruturas de dados: membros de dados e de ação
+São do tipo valor somente e não requer realocação de rip
+
+
+
+
+
+
 
 
 

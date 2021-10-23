@@ -1,0 +1,136 @@
+ORINETAÇÃO A OBJETOS EM .NET:
+
+**AULA 01
+
+PARADIGMAS DE PROGRAMAÇÃO:
+São modos de estruturar códigos. O programador pode estruturar e executar.
+Paradigmas lógicos: cada programador tem uma lógica e diferentes caminhos para um mesmo resultados.
+Cada paradigma surgiu de uma necessidade diferente, e temos alguns porém citaremos dois:
+
+Programação Estruturada e Programação Orientada a Objetos
+
+Prog Estruturada: Interpretação linha por linha. 
+Ela é linear, interpretada em pequenos trechos de código.
+Não necessitam estar em uma ordem específica. Temos 3 estruturas:
+Sequência: comandos executados de cima pra baixo, comandos básicos
+Seleção: (condição) comandos que fazem condições, seleções a partir de determinados fins
+Repetição: loopings que executam para determinados fins (for while...)
+
+Prog Orientada a Objetos: Traz objetos da vida real para a programaçção
+Temos as estruturas das anteriores e temos os objetos da vida real através de atributos e métodos
+e podemos manipulá-los através de seus campos
+
+Atributos de um objeto carro: cor modelo, marca, portas, velocidade
+Métodos: Ações que ele pode fazer: andar, parar, buzinar
+Classe: Onde conceituamos o objeto, onde damos vida ao conceito 
+Objeto é a instância da classe, ele pertence à classe.
+
+Para ser considerada orientada a objetos precisamos atender 4 pilares:
+
+-Abrstração
+-Encapsulamento
+-Herança
+-Polimorfismo
+
+
+Tudo no .NET é considerado objeto, mesmo os dados mais simples. 
+
+
+
+
+**AULA02
+CLASSES, OBJETOS E VISIBILIDADE:
+
+Classes são plantas, um esboço, um molde do objeto, contendo dentro de si
+as especificações para a criação dele. Através de atributos e métodos conseguimos descrever
+dentro da classe. Objetos similares fazem parte da mesma classe, ex tipos de carros
+pois compartilham vários atributos e métodos
+
+//tipos 
+
+Um objeto é aquilo que possui atributos, comportamentos e estados.
+Herança: quando um novo objeto instancia uma classe e herda tudo que é público
+para cada objeto que criamos, podemos manipular quais atributos manipularemos
+
+
+
+VISIBILIDADE: encapsulamento: dependendo do encapsulamento, prevenimos vazamento de escopo
+publica +
+privada -
+protegida #
+
+publica: sem limite de acesso
+
+
+
+
+**AULA 03
+TIPOS
+
+**AULA 04
+MÉTODOS E TIPOS DE MÉTODOS
+
+MÉTODOS DETERMINAM O COMPORTAMENTO DE UMA CLASSE, SÃO FUNÇÕES QUE EXECUTAM TAREFAS
+PODEM OU NÃO RETORNAR UM VALOR E PODEM OU NÃO RECEBER PARÂMETROS
+
+TIPOS:
+
+GET: Solicitam acesso de informações de determinado objetos sem
+dar acesso diretamente a ele, exemplo: inserir ou pesquisar produto sem alterá-los
+Colocamos barreiras em dados que estão sendo manipulados
+
+SET: Modificadores, enviam pedidos de alteração para alterar aquele atributo
+
+CONSTRUCT: inicializa, dá forma à classe, ele que dá início àquela determinada função
+ele deve ter o mesmo nome da classe, não tem tipo de retorno, é executado apenas uma vez
+e somente na criação do objeto, não pode ser chamado diretamente e deve ser public
+
+
+
+**AULA 05
+PROPRIEDADES:
+forma inteligente de trabalhar com campos dentro do C#
+consiste de um par de get e set
+Pega uma ação de um lugar e joga em outra
+
+EVENTOS:
+método precisa definir quando acontece um evento
+chamam as ações dentro dos métodos
+
+Delegate: variável que delega o endereço da função e a chama
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
