@@ -59,7 +59,7 @@ AI: ML.NET, APACHE SPARK
 
 
 
-<>PREPARANDO O AMIENTE</>
+<>PREPARANDO O AMBIENTE</>
 
 <>Conhecento a CLI do .net</>
 
