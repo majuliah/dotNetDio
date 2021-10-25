@@ -7,9 +7,11 @@ namespace DioBank
     {
         static void Main(string[] args)
         {
-            Conta minhaConta = new Conta();
-            minhaConta.Nome = "Majulia";
+            Conta minhaConta = new Conta(TipoConta.PessoaFisica, 100, 100, "Majulia");
+
+            Console.WriteLine(minhaConta.ToString());
             
+
         }
     }
 }
