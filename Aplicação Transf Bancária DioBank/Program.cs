@@ -44,40 +44,26 @@ namespace DioBank
         }
         private static void InserirConta()
         {
-            int entradaTipoConta = 0;
-            string entradaNome = "", entradaCpf = "";
+            int entradaTipoConta;
+            string entradaNome, entradaCpf;
             double entradaSaldo = 0.0, entradaCredito = 0.0;
             Console.WriteLine("Inserir nova Conta: ");
 
-            while (entradaTipoConta != 1 || entradaTipoConta != 2)
-            {
-                Console.WriteLine("Digite 1- Pessoa Física || Digite 2- Pessoa Jurídica");
-                entradaTipoConta = int.Parse(Console.ReadLine());
-            }
-
-            while (entradaNome.Length < 0)
-            {
-                Console.WriteLine("Entre com o nome completo");
-                entradaNome = Console.ReadLine();
-            }
+            Console.WriteLine("Digite 1- Pessoa Física || Digite 2- Pessoa Jurídica");
+            entradaTipoConta = int.Parse(Console.ReadLine());
             
-            while (entradaCpf.Length < 0 && entradaCpf.Length > 10)
-            {
-                Console.WriteLine("Entre com o CPF");
-                entradaCpf = Console.ReadLine();
-            }
-
-            while (entradaSaldo < 0.0)
-            {
-                Console.WriteLine("Entre com um saldo maior que R$0,00");
-                entradaSaldo = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            }
-
-            while (entradaCredito < 0.0)
-            {
-                Console.WriteLine("Entre com um saldo maior que R$0,00");
-                entradaCredito = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            }
+            Console.WriteLine("Entre com o nome completo");
+            entradaNome = Console.ReadLine();
+            
+            Console.WriteLine("Entre com o CPF");
+            entradaCpf = Console.ReadLine();
+            
+            Console.WriteLine("Entre com um saldo maior que R$0,00");
+            entradaSaldo = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            
+            Console.WriteLine("Entre com um saldo maior que R$0,00");
+            entradaCredito = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            
 
             Conta novaConta = new Conta(tipoConta: (TipoConta)entradaTipoConta,
                                         saldo: entradaSaldo,
