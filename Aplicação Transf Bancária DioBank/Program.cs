@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 
 namespace DioBank
 {
@@ -15,7 +16,7 @@ namespace DioBank
                 switch (opcaoEntrada)
                 {
                     case "1":
-                        //ListarContas();
+                        ListarContas();
                         break;
                     case "2":
                         InserirConta();
@@ -44,13 +45,64 @@ namespace DioBank
 
         private static void InserirConta()
         {
-            int entradaTipoConta;
-            string entradaNome;
-            double entradaSaldo, entradaCredito;
+            int entradaTipoConta = 0;
+            string entradaNome = "", entradaCpf = "";
+            double entradaSaldo = 0.0, entradaCredito = 0.0;
             Console.WriteLine("Inserir nova Conta: ");
+
+            while (entradaTipoConta != 1 || entradaTipoConta != 2)
+            {
+                Console.WriteLine("Digite 1- Pessoa Física || Digite 2- Pessoa Jurídica");
+                entradaTipoConta = int.Parse(Console.ReadLine());
+            }
+
+            while (entradaNome.Length < 0)
+            {
+                Console.WriteLine("Entre com o nome completo");
+                entradaNome = Console.ReadLine();
+            }
             
-            Console.WriteLine("Digite 1- Pessoa Física || Digite 2- Pessoa Jurídica");
-            
+            while (entradaCpf.Length < 0 && entradaCpf.Length > 10)
+            {
+                Console.WriteLine("Entre com o CPF");
+                entradaCpf = Console.ReadLine();
+            }
+
+            while (entradaSaldo < 0.0)
+            {
+                Console.WriteLine("Entre com um saldo maior que R$0,00");
+                entradaSaldo = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            }
+
+            while (entradaCredito < 0.0)
+            {
+                Console.WriteLine("Entre com um saldo maior que R$0,00");
+                entradaCredito = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            }
+
+            Conta novaConta = new Conta(tipoConta: (TipoConta)entradaTipoConta,
+                                        saldo: entradaSaldo,
+                                        credito: entradaCredito,
+                                        nome: entradaNome,
+                                        cpf: entradaCpf);
+            listContas.Add(novaConta);
+        }
+
+        private static void ListarContas()
+        {
+            Console.WriteLine("Listar Contas");
+            if (listContas.Count == 0)
+            {
+                Console.WriteLine("Nenhuma conta cadastrada.");
+                return;
+            }
+
+            for (int i = 0; i < listContas.Count; i++)
+            {
+                Conta conta = listContas[i];
+                Console.WriteLine("#{0} - ", i);
+                Console.WriteLine(conta);
+            }
             
         }
         
