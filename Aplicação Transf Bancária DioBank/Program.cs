@@ -22,13 +22,13 @@ namespace DioBank
                         InserirConta();
                         break;
                     case "3":
-                        //Transferir();
+                        Transferir();
                         break;
                     case "4":
-                        //Sacar();
+                        Sacar();
                         break;
                     case "5":
-                        //Depositar();
+                        Depositar();
                         break;
                     case "C":
                         Console.Clear(); 
@@ -42,7 +42,6 @@ namespace DioBank
             Console.WriteLine("Obrigada por utilizar meu programinha :)");
             Console.ReadLine();
         }
-
         private static void InserirConta()
         {
             int entradaTipoConta = 0;
@@ -103,7 +102,40 @@ namespace DioBank
                 Console.WriteLine("#{0} - ", i);
                 Console.WriteLine(conta);
             }
+        }
+        private static void Sacar()
+        {
+            Console.WriteLine("Digite o número da conta");
+            int indiceConta = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite agora o valor que deseja sacar");
+            double valorDeposito = double.Parse(Console.ReadLine());
+
+            listContas[indiceConta].Sacar(valorDeposito);
+        }
+
+        private static void Depositar()
+        {
+            Console.WriteLine("Digite o número da conta: ");
+            int indiceConta = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o valor para ser depositado: ");
+            double valorDepositado = double.Parse(Console.ReadLine());
             
+            listContas[indiceConta].Depositar(valorDepositado);
+        }
+
+        private static void Transferir()
+        {
+            Console.WriteLine("Digite o número da conta origem: ");
+            int indiceContaOrigem = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o número da conta de destino: ");
+            int indiceContaDestino = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Entre com o valor de transferência: ");
+            double valorTransferencia = double.Parse(Console.ReadLine());
+            listContas[indiceContaOrigem].Transferir(valorTransferencia, listContas[indiceContaDestino]);
         }
         
 
