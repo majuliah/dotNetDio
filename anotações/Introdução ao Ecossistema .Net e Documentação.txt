@@ -54,7 +54,28 @@ Gerenciamento de memória: realoca recursos e memória
 Sistemas de tipos: O framework define para manter a operabilidade das linguagens
 Grandes bibliotecas e específicas para cada propósito
 Compatibilidade de versões, existe com novas compatibilidades de suas próprias versões
-Implementações diferentes, tem suporte
+Implementações diferentes, tem suporte dentro das plataformas da ms
+
+
+O NOVO .NET
+no .net core somente baixamos bibliotecas necessárias para não diminuir a performance da aplicação
+
+O padrão MVC -> ASP.NET Core MVC
+Uso padrão do Model View Controller:
+Model: Estado da aplicação que encapsula a lógica de negócio
+View: Responsável por apresentar dados através da interface
+Controller: Lidam com a interação do usuário a partir da view e trabalham com a model para apresentar respostas para o usuário
+conseguimos capturar dados a url e manipular
+
+Model Validation: validação automática no lado do cliente e servidor
+Razor Pages: Não tem MVC, mas tem responsabilidades divididas. É a renderização e interface da página, usa C# com HTML
+
+
+XAML -> marcadores, como html
+
+
+O QUE É ESCREVER UM BOM CÓDIGO?
+
 
 
 
