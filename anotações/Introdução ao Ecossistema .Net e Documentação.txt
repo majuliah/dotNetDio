@@ -1,0 +1,62 @@
+.NET é uma plataforma de desenvolvimento com bibliotecas, linguagens, ferramentas que
+permitem o desenvolvimento de diversos tipos de aplicação;
+
+
+ASP.NET é um framework que estende o .NET para a criação de WEB apps.
+
+Plataforma cruzada é a plataforma que é capaz de dar suporte para diferentes tipos
+de aplicações. .NET é uma
+We, Mobile, Desktop, Cloud, Jogos, IoT, Microservices, IA, etc
+
+
+Ambientes de Desenvolvimento:
+Visual Studio, Visual Studio Code, Codespace (code online)
+
+Linguagens de Programação:
+C#, F#, Visual Basic
+
+
+São necessárias bibliotecas para desenvolvermos aplicações:
+SDK : software development kit: provém ferramentas de desenvolvimento
+Runtime: Somente executa
+
+NUGET: Gerenciador de pacotes e possui interface gráfica
+
+ACESSO A DADOS:
+ ORM-> Mapeador de objeto relacional, conseguimos pegar um objeto e o ORM transforma em tabela
+ LINQ-> COnsulta integrada à linguagem, conseguimos consultar dados e temos uma linguagem padrão unificada
+
+INTEGRAÇÃO CONTÍNUA CI/CD
+ GitHub Actions
+ Azure DevOps
+
+Gerenciador automático de memória: garbage collector
+
+
+
+ASP.NET
+Processamento de requisições web (C#, F#)
+Criação de páginas web de forma dinâmica
+Bibliotecas com Web Patterns que é o MVC
+Sistema de Autenticar
+Extensões para produtividade (CPI, SERVICES, HUB)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
