@@ -43,6 +43,21 @@ Extensões para produtividade (CPI, SERVICES, HUB)
 
 
 
+.net é open source
+
+CLR -> 
+JIT -> compilador de tempo de execução com bibliotecas
+se  tivermos diferentes linguagens, elas tem o mesmo compilador para uma CLR
+e o JIT em tempo de execução compila 
+
+Gerenciamento de memória: realoca recursos e memória
+Sistemas de tipos: O framework define para manter a operabilidade das linguagens
+Grandes bibliotecas e específicas para cada propósito
+Compatibilidade de versões, existe com novas compatibilidades de suas próprias versões
+Implementações diferentes, tem suporte
+
+
+
 
 
 
