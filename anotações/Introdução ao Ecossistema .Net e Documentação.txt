@@ -75,6 +75,44 @@ XAML -> marcadores, como html
 
 
 O QUE É ESCREVER UM BOM CÓDIGO?
+Ele precisa ser confiável, ser sustentável e precisa ser eficiente;
+
+Manter sempre o mais simples possível
+Padronização é boa para melhorar a comunicação entre as equipes, e facilita a manutenção de código
+
+CLEAN CODE:
+base para o documento de convenções para ser utilizado pela equipe
+livro importante para devs
+
+1) SEMPRE seguir a convenção da equipe
+2)Deixar estúpidamente simples
+3)Devolver o código o mais limpo que quando encontrou
+4)Buscar sempre entender e solucionar os problemas a partir de sua RAIZ
+
+5) Ser consistente na escrita do código
+6)Utilizar variáveis autodescritivas
+7)Observar a necessidade de criação de objetos de valor ao invés do so de tipos primitivos
+8) Evitar dependências lógicas
+9) evitar condicionais negativas
+
+
+
+QUANDO UTILIZAR O .NET:
+	*Necessidade de plataforma cruzada;
+	*Há direcionamento de microsserviços;
+		¨Azure Service Fabric
+		¨Azure App Service
+	*Uso de Docker;
+		¨Hospedagem em infra Linux ou Windows
+		¨Azure Kubernetes Service
+	*Alto desempenho e sistemas escalonáveis;
+	*Necessidade de versões .NET diferentes por aplicação
+
+QUANDO UTILIZAR O .NET FRAMEWORK
+
+
+
+
 
 
 
