@@ -1,0 +1,15 @@
+C:\Users\ladyv\Documents\donNetDIO\Trabalhando com Tipod de Referência e Valor\primeiro exemplo\bin\Debug\net6.0\proj1.exe
+C:\Users\ladyv\Documents\donNetDIO\Trabalhando com Tipod de Referência e Valor\primeiro exemplo\bin\Debug\net6.0\proj1.deps.json
+C:\Users\ladyv\Documents\donNetDIO\Trabalhando com Tipod de Referência e Valor\primeiro exemplo\bin\Debug\net6.0\proj1.runtimeconfig.json
+C:\Users\ladyv\Documents\donNetDIO\Trabalhando com Tipod de Referência e Valor\primeiro exemplo\bin\Debug\net6.0\proj1.dll
+C:\Users\ladyv\Documents\donNetDIO\Trabalhando com Tipod de Referência e Valor\primeiro exemplo\bin\Debug\net6.0\ref\proj1.dll
+C:\Users\ladyv\Documents\donNetDIO\Trabalhando com Tipod de Referência e Valor\primeiro exemplo\bin\Debug\net6.0\proj1.pdb
+C:\Users\ladyv\Documents\donNetDIO\Trabalhando com Tipod de Referência e Valor\primeiro exemplo\obj\Debug\net6.0\proj1.csproj.AssemblyReference.cache
+C:\Users\ladyv\Documents\donNetDIO\Trabalhando com Tipod de Referência e Valor\primeiro exemplo\obj\Debug\net6.0\proj1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ladyv\Documents\donNetDIO\Trabalhando com Tipod de Referência e Valor\primeiro exemplo\obj\Debug\net6.0\proj1.AssemblyInfoInputs.cache
+C:\Users\ladyv\Documents\donNetDIO\Trabalhando com Tipod de Referência e Valor\primeiro exemplo\obj\Debug\net6.0\proj1.AssemblyInfo.cs
+C:\Users\ladyv\Documents\donNetDIO\Trabalhando com Tipod de Referência e Valor\primeiro exemplo\obj\Debug\net6.0\proj1.csproj.CoreCompileInputs.cache
+C:\Users\ladyv\Documents\donNetDIO\Trabalhando com Tipod de Referência e Valor\primeiro exemplo\obj\Debug\net6.0\proj1.dll
+C:\Users\ladyv\Documents\donNetDIO\Trabalhando com Tipod de Referência e Valor\primeiro exemplo\obj\Debug\net6.0\ref\proj1.dll
+C:\Users\ladyv\Documents\donNetDIO\Trabalhando com Tipod de Referência e Valor\primeiro exemplo\obj\Debug\net6.0\proj1.pdb
+C:\Users\ladyv\Documents\donNetDIO\Trabalhando com Tipod de Referência e Valor\primeiro exemplo\obj\Debug\net6.0\proj1.genruntimeconfig.cache
