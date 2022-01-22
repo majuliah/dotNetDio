@@ -16,6 +16,8 @@ public class Program
     //mesmo que
     Pessoa p3 = p1;
 
+    Pessoa p4 = p1.Clone();
+
 
         TrocarNome(p1, "João SIlva Ano");
         WriteLine(@$"
