@@ -24,17 +24,8 @@ public class Program
 
     
     }
-    static void TrocarNome(Pessoa p1, string nomeNovo)
-    {
-        p1.Nome = nomeNovo;
-    }
 
-    static void TrocarNome(StructPessoa p1, string nomeNovo)
-    {
-        p1.Nome = nomeNovo;
-    }
-
-    public static void Main()
+    static void Demo3()
     {
         StructPessoa p1 = new StructPessoa()
         {
@@ -56,9 +47,43 @@ public class Program
         Nome do p2 {p2.Nome}
         ");
 
+    }
 
+    static void demo4()
+    {
+        string nome = "Marajulia";
+        TrocarNome(nome, "Carla");
 
+        WriteLine(@$"O novo nome é {nome}");
 
+    }
+    static void TrocarNome(Pessoa p1, string nomeNovo)
+    {
+        p1.Nome = nomeNovo;
+    }
+
+    static void TrocarNome(StructPessoa p1, string nomeNovo)
+    {
+        p1.Nome = nomeNovo;
+    }
+    static void TrocarNome(string nome, string nomeNovo)
+    {
+        nome = nomeNovo;
+    }
+
+    static void MudarParaImpar(int[] pares)
+    {
+        for (int i = 0; i < pares.Length; i++)        
+        {
+            pares[i] += 1;    
+        }
+    }
+    public static void Main()
+    {
+        int[] pares = new int[]{0, 2, 4, 6, 8};
+
+        MudarParaImpar(pares);
+        WriteLine(@$"Os impares {string.Join(", ", pares)}");
 
     }
 
